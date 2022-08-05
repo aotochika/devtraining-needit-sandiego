@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <applicability_mode>script</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category>3efd22da0b203300a1b16c2367673a10</category>
+        <channels/>
+        <connect_queue/>
+        <description>ITSM conversation for creating incidents using Record Producer</description>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{"graph_api_version":"1.0.39","variables":{"2b209754897d43e191fe35aacc9c5aa5":{"id":"2b209754897d43e191fe35aacc9c5aa5","name":"LiveAgent_application","value":{"mode":"simple","value":null},"varType":"script","category":"vaVars"}},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"c1a6e0dd8dff41499b733f5449c3172f":{"id":"c1a6e0dd8dff41499b733f5449c3172f","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"61cd214f732f4825870162aba4d00986":{"id":"61cd214f732f4825870162aba4d00986","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"6b31ccaeb4b5497b8d4faeb9a1dd4b12","edgeType":"Edge","source":"c1a6e0dd8dff41499b733f5449c3172f","target":"61cd214f732f4825870162aba4d00986","sourcePort":"","targetPort":""}]}}}</graph>
+        <key_phrases>Report IT Issue(Template)</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Report IT Issue(Template)</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 02:20:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f3e17f962f45111006ca3f96f699b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Report IT Issue(Template)</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_topic_f3e17f962f45111006ca3f96f699b69a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 02:20:21</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=f3e17f962f45111006ca3f96f699b69a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>55d05c05dbde1b00b2e05d00cf961927</instance_id>
+        <instance_name>dev60080</instance_name>
+        <name>sys_cb_topic_f3e17f962f45111006ca3f96f699b69a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><applicability_mode>script</applicability_mode><autopilot_topic>false</autopilot_topic><category>3efd22da0b203300a1b16c2367673a10</category><channels/><connect_queue/><description>ITSM conversation for creating incidents using Record Producer</description><expose_on_palette>false</expose_on_palette><flexible_conversation_switching>false</flexible_conversation_switching><graph>{"graph_api_version":"1.0.39","variables":{"2b209754897d43e191fe35aacc9c5aa5":{"id":"2b209754897d43e191fe35aacc9c5aa5","name":"LiveAgent_application","value":{"mode":"simple","value":null},"varType":"script","category":"vaVars"}},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"c1a6e0dd8dff41499b733f5449c3172f":{"id":"c1a6e0dd8dff41499b733f5449c3172f","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"61cd214f732f4825870162aba4d00986":{"id":"61cd214f732f4825870162aba4d00986","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"6b31ccaeb4b5497b8d4faeb9a1dd4b12","edgeType":"Edge","source":"c1a6e0dd8dff41499b733f5449c3172f","target":"61cd214f732f4825870162aba4d00986","sourcePort":"","targetPort":""}]}}}</graph><key_phrases>Report IT Issue(Template)</key_phrases><library>false</library><live_agent>false</live_agent><name>Report IT Issue(Template)</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><palette_label/><roles/><secure_custom_input_control>false</secure_custom_input_control><source_topic_id/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-04 02:20:21</sys_created_on><sys_domain>global</sys_domain><sys_id>f3e17f962f45111006ca3f96f699b69a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Report IT Issue(Template)</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_cb_topic_f3e17f962f45111006ca3f96f699b69a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-04 02:20:21</sys_updated_on><triggerable_by_notification>false</triggerable_by_notification><type>STANDARD</type><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=f3e17f962f45111006ca3f96f699b69a"/></record_update>]]></payload>
+        <payload_hash>357175038</payload_hash>
+        <record_name>Report IT Issue(Template)</record_name>
+        <reverted_from/>
+        <source>244028422f74111006ca3f96f699b6e7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 02:20:22</sys_created_on>
+        <sys_id>f3e17f962f45111006ca3f96f699b6af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18266a762e50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 02:20:22</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>3fe17f96524511102ba0ac402d65e0ae</update_guid>
+        <update_guid_history>3fe17f96524511102ba0ac402d65e0ae:357175038</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 02:26:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>9922416e0b0041af9e75c7ad99169a71</sys_id>
+        <sys_metadata>f3e17f962f45111006ca3f96f699b69a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Report IT Issue(Template)</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_f3e17f962f45111006ca3f96f699b69a</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_f3e17f962f45111006ca3f96f699b69a">f3e17f962f45111006ca3f96f699b6af</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 02:26:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
